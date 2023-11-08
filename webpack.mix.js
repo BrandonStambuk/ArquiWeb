@@ -15,3 +15,6 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
+
+mix.sass('node_modules/bootstrap/scss/bootstrap.scss', 'public/css')
+    .js('node_modules/bootstrap/dist/js/bootstrap.js', 'public/js');
