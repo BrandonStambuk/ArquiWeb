@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Shadows+Into+Light&display=swap');
 .navbar a.navbar-brand {
     color: #fff; 
 }
@@ -48,6 +49,16 @@ h1 {
     color: rgb(7, 6, 6); /* Color de texto blanco, sin opacidad */
     position: relative; /* Asegura que el texto esté en la parte superior */
     z-index: 1; /* Coloca el texto sobre el fondo */
+    font-size: clamp(1em,6vw,5em);
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p{
+    font-size: clamp(1em,3.75vw,5em);
+    margin-top: 20px;
+    font-family: 'Cutive Mono', monospace;
+    line-height: 1.2;
+    text-align: left;
 }
 
 h1, p {
@@ -56,3 +67,43 @@ h1, p {
     position: relative;
     z-index: 1;
 }
+
+.btn {/* El botón ocupará todo el ancho del contenedor */
+    font-size: 10px; /* Tamaño de fuente inicial */
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .btn {
+        font-size: 14px; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+    }
+}
+
+.btn {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 14px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    background: #1F2937;
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+  }
+
+  
+.btn:hover .transition {
+    width: 14em;
+    height: 14em;
+  }
+  
+.btn:active {
+    transform: scale(0.97);
+  }
+
+  .btn {
+    width: 30%; /* Ancho inicial del botón */
+    font-size: 1vw; /* Tamaño de fuente inicial */
+}
+
