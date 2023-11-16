@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Shadows+Into+Light&display=swap');
+
+
+
+.titulito{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    margin-bottom: 70px;
+    width: 100%;
+    font-family: 'Bebas Neue', sans-serif;
+    z-index: 1; /* Ajusta el valor de z-index según tus necesidades */
+
+}
+
+.titulito h1{
+    font-size: 100px;
+    
+}
+
+.titulito p{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 3em;
+    font-weight: bold;
+}
