@@ -23,11 +23,6 @@
                     <p class="text-left">Explora un oasis de plantas exóticas y disfruta de la tranquilidad del Jardín Martín Cardenas</p>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-12 text-center">
-                    <button class="btn";>Visita nuestra biblioteca de plantas</button>
-                </div>
-            </div>
         </div>
     </div>
 </div>

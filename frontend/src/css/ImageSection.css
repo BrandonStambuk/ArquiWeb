@@ -1,29 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Shadows+Into+Light&display=swap');
 
-
-
-.titulito{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: black;
-    margin-bottom: 70px;
+.container-imagen {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    
+}
+.imagen-jardin {
+    position: relative;
     width: 100%;
-    font-family: 'Bebas Neue', sans-serif;
-    z-index: 1; /* Ajusta el valor de z-index según tus necesidades */
-
+    height: 60vw; 
 }
 
-.titulito h1{
-    font-size: 100px;
+.imagen-jardin::before {
+    content: "";
+    background-image: url('../images/jardin2.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+.container-imagen-aloe {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     
 }
 
-.titulito p{
+.imagen-aloe {
+    position: relative;
+    width: 100%;
+    height: 60vw; 
+}
+
+.imagen-aloe::before {
+    content: "";
+    background-image: url('../images/aloe-vera.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+h1 {
+    color: rgb(7, 6, 6); /* Color de texto blanco, sin opacidad */
+    position: relative; /* Asegura que el texto esté en la parte superior */
+    z-index: 1; /* Coloca el texto sobre el fondo */
+    font-size: 6vw;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 30px;
+    
+}
+
+p{
+    font-size:3.75vw;
+    margin-top: 20px;
     font-family: 'Cutive Mono', monospace;
-    font-size: 3em;
+    line-height: 1.2;
+    text-align: left;
     font-weight: bold;
+    margin-top: 30px;
+}
+
+#footer{
+    font-size: 2.75vw;
+    margin-top: 20px;
+}
+
+h1, p {
+    color: rgb(7, 6, 6);
+    text-align: center; /* Alineamos el texto al centro */
+    position: relative;
+    z-index: 1;
+}
+
+.btn {/* El botón ocupará todo el ancho del contenedor */
+    font-size: 10px; /* Tamaño de fuente inicial */
 }
