@@ -83,6 +83,32 @@ h1, p {
     z-index: 1;
 }
 
-.btn {/* El botón ocupará todo el ancho del contenedor */
-    font-size: 10px; /* Tamaño de fuente inicial */
+.custom-card-text {
+    font-size: 16px; /* Puedes ajustar el tamaño según tus preferencias */
+  }
+  
+  .justified-text {
+    text-align: justify;
+  }
+
+
+.card-title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+}
+
+
+.imagen{
+    border-radius: 20px;
+}
+
+.card{
+
+    background: #F8F9FD;
+    background: linear-gradient(0deg, rgb(255, 255, 255) 0%,#DBE2BA 100%);
+    border-radius: 40px;
+    padding: 25px 35px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgba(2, 2, 2, 0.878) 0px 30px 30px -20px;
+    margin: 20px;
 }
