@@ -13,7 +13,7 @@ function About() {
             <div className="card-body">
               <div className="row">
                 <div className="col-md-6"> {/* Ocupa 6 columnas en pantallas grandes */}
-                  <h5 className="card-title">Sobre Martin Cardenas</h5>
+                  <h5 className="card-title" id="about">Sobre Martin Cardenas</h5>
                   {/* Aplica ambas clases de estilo al elemento p */}
                   <p className="card-text custom-card-text justified-text">
                     Martín Cárdenas es considerado como el botánico más importante que ha tenido Bolivia. Realizó extensas expediciones botánicas por todo el territorio nacional recolectando especímenes de la flora local, de la cual llegó
